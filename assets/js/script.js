@@ -343,9 +343,6 @@ function toggleLanguage() {
 // ============================================
 window.addEventListener("DOMContentLoaded", () => {
 
-  // ERGONOMIA
-  initErgoGame();
-
   // BOTON IDIOMA
   const btn =
     document.getElementById("langToggle");
