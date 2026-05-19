@@ -553,53 +553,80 @@ footer p {
 
 }
 
+/* RESPONSIVE CELULAR */
 @media (max-width: 600px) {
 
-  .hero {
+  body{
+    padding-top: 110px;
+  }
+
+  .navbar{
+    padding: 10px 18px;
+  }
+
+  .logo-zennet img{
+    width: 85px;
+    height: 85px;
+  }
+
+  .hero{
     padding: 24px;
+    min-height: auto;
   }
 
-  .hero-title {
-    font-size: 36px;
+  .hero-content{
+    grid-template-columns: 1fr;
+    gap: 30px;
+    text-align: center;
   }
 
-  .module-btn-large {
+  .hero-left{
+    align-items: center;
+  }
+
+  .hero-title{
+    font-size: 42px;
+    line-height: 1.1;
+    margin-top: 20px;
+  }
+
+  .hero-subtitle{
+    font-size: 16px;
+  }
+
+  .module-btn-large{
     padding: 18px 24px;
     font-size: 15px;
   }
 
-}
+  .module-page-inner{
+    padding: 20px 16px 60px;
+  }
 
-.drag-point {
+  .module-page-inner h2{
+    font-size: 28px;
+  }
 
-  stroke: white;
+  .module-page-inner h3{
+    font-size: 20px;
+  }
 
-  stroke-width: 2;
+  .module-nav{
+    flex-direction: column;
+    gap: 18px;
+  }
 
-  cursor: grab;
+  .module-nav-btn{
+    width: 100%;
+  }
 
-}
+  .ergo-container{
+    overflow-x: hidden;
+  }
 
-.lang-btn {
+  .ergo-svg-wrap svg{
+    width: 100% !important;
+    height: auto !important;
+  }
 
-  padding: 10px 18px;
-
-  border-radius: 999px;
-
-  border: 2px solid #1A1A1A;
-
-  background: #FDF6EC;
-
-  cursor: pointer;
-
-  font-weight: 700;
-
-  transition: all 0.3s ease;
-}
-
-.lang-btn:hover {
-
-  background: #1A1A1A;
-
-  color: white;
 }
