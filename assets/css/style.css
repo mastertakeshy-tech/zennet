@@ -434,53 +434,6 @@ section {
   background: #FF6B5B;
 }
 
-/* ERGONOMIA */
-.ergo-container {
-  border: 2px solid #1A1A1A;
-  border-radius: 24px;
-  padding: 24px;
-  margin: 28px 0;
-  background: #fff;
-}
-
-.ergo-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 16px;
-}
-
-.ergo-score {
-  font-family: Georgia, 'Times New Roman', serif;
-  font-size: 32px;
-  font-weight: 700;
-  color: #64B5F6;
-}
-
-.ergo-status {
-  padding: 6px 16px;
-  border-radius: 999px;
-  font-size: 13px;
-  font-weight: 600;
-  border: 2px solid #1A1A1A;
-}
-
-.ergo-svg-wrap {
-  background: #f5f5f5;
-  border-radius: 16px;
-  overflow: hidden;
-  border: 2px solid #1A1A1A;
-}
-
-.ergo-tips {
-  margin-top: 16px;
-  padding: 16px;
-  background: #F5EBD6;
-  border-radius: 16px;
-  border: 2px solid #1A1A1A;
-  font-size: 13px;
-}
-
 /* TOAST */
 .toast {
   position: fixed;
@@ -620,13 +573,4 @@ footer p {
     width: 100%;
   }
 
-  .ergo-container{
-    overflow-x: hidden;
-  }
-
-  .ergo-svg-wrap svg{
-    width: 100% !important;
-    height: auto !important;
-  }
-
-}
+ }
