@@ -162,44 +162,39 @@
   <!-- OPCION 1 -->
   <div
     class="habit-option"
-    onclick="showToast('❌ Incorrecto')"
-    data-es="❌ Usar laptop acostado en la cama"
-    data-en="❌ Using a laptop while lying in bed">
+    onclick="this.classList.add('wrong')">
 
-    ❌ Usar laptop acostado en la cama
+    Laptop en la cama
 
   </div>
 
   <!-- OPCION 2 -->
   <div
     class="habit-option"
-    onclick="showToast('❌ Incorrecto')"
-    data-es="❌ Espalda completamente encorvada"
-    data-en="❌ Completely hunched back">
+    onclick="this.classList.add('wrong')">
 
-    ❌ Espalda completamente encorvada
+    Espalda encorvada
 
   </div>
 
-  <!-- OPCION 3 -->
+  <!-- OPCION 3 CORRECTA -->
   <div
     class="habit-option"
-    onclick="showToast('✅ ¡Correcto! Buena ergonomía')"
-    data-es="✅ Espalda recta y pantalla a la altura de los ojos"
-    data-en="✅ Straight back and screen at eye level">
+    onclick="
+      this.classList.add('correct');
+      markModuleComplete(4);
+    ">
 
-    ✅ Espalda recta y pantalla a la altura de los ojos
+    Espalda recta y pantalla a la altura de los ojos
 
   </div>
 
   <!-- OPCION 4 -->
   <div
     class="habit-option"
-    onclick="showToast('❌ Incorrecto')"
-    data-es="❌ Mirar el celular por horas sin descanso"
-    data-en="❌ Looking at the phone for hours without breaks">
+    onclick="this.classList.add('wrong')">
 
-    ❌ Mirar el celular por horas sin descanso
+    Mirar el celular sin descanso
 
   </div>
 
@@ -207,15 +202,44 @@
 
 <br>
 
-<div class="ergo-tips">
+<div class="quiz-box">
 
-  <p
-    data-es="💡 Consejo: Mantén la espalda recta, los pies apoyados y realiza pausas activas."
-    data-en="💡 Tip: Keep your back straight, feet supported, and take active breaks.">
+  <div class="quiz-q">
 
-    💡 Consejo: Mantén la espalda recta, los pies apoyados y realiza pausas activas.
+    ¿A cuántos grados deben estar las rodillas y los brazos?
 
-  </p>
+  </div>
+
+  <div class="quiz-opts">
+
+    <div
+      class="quiz-opt"
+      onclick="this.classList.add('wrong')">
+
+      45 grados
+
+    </div>
+
+    <div
+      class="quiz-opt"
+      onclick="
+        this.classList.add('correct');
+        markModuleComplete(4);
+      ">
+
+      90 grados
+
+    </div>
+
+    <div
+      class="quiz-opt"
+      onclick="this.classList.add('wrong')">
+
+      180 grados
+
+    </div>
+
+  </div>
 
 </div>
 
