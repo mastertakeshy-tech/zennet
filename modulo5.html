@@ -1,0 +1,270 @@
+<!-- ============================================
+     ESTUDIANTE: LORENA VILLEGAS
+     TUTOR: CARLOS EDUARDO PAREDES MENDEZ
+     APLICACIONES MULTIMEDIA GRUPO 213026_7
+     UNAD
+============================================ -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 5 - Zennet</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+
+  <a href="index.html" class="logo-zennet">
+    <img src="assets/images/logo.png" alt="ZenNet Logo">
+  </a>
+
+  <button id="langToggle" class="lang-btn">
+    EN
+  </button>
+
+</nav>
+
+<!-- MODULO 5 -->
+<section>
+
+  <div class="module-page-inner">
+
+    <h2
+      data-es="Módulo 5 — Hábitos Digitales Saludables"
+      data-en="Module 5 — Healthy Digital Habits">
+
+      Módulo 5 — Hábitos Digitales Saludables
+
+    </h2>
+
+    <p
+      data-es="Tener hábitos digitales saludables ayuda a mantener equilibrio entre la tecnología y la vida diaria."
+      data-en="Having healthy digital habits helps maintain balance between technology and daily life.">
+
+      Tener hábitos digitales saludables ayuda a mantener equilibrio entre
+      la tecnología y la vida diaria.
+
+    </p>
+
+    <br>
+
+    <h3
+      data-es="Hábitos Saludables"
+      data-en="Healthy Habits">
+
+      Hábitos Saludables
+
+    </h3>
+
+    <ul>
+
+      <li
+        data-es="Dormir sin usar el celular."
+        data-en="Sleep without using the phone.">
+
+        Dormir sin usar el celular.
+
+      </li>
+
+      <li
+        data-es="Realizar actividad física."
+        data-en="Do physical activity.">
+
+        Realizar actividad física.
+
+      </li>
+
+      <li
+        data-es="Tomar descansos de las pantallas."
+        data-en="Take breaks from screens.">
+
+        Tomar descansos de las pantallas.
+
+      </li>
+
+      <li
+        data-es="Pasar tiempo con familiares y amigos."
+        data-en="Spend time with family and friends.">
+
+        Pasar tiempo con familiares y amigos.
+
+      </li>
+
+      <li
+        data-es="Reducir el uso excesivo de redes sociales."
+        data-en="Reduce excessive use of social media.">
+
+        Reducir el uso excesivo de redes sociales.
+
+      </li>
+
+    </ul>
+
+    <br>
+
+    <h3
+      data-es="Consejos Básicos"
+      data-en="Basic Tips">
+
+      Consejos Básicos
+
+    </h3>
+
+    <p
+      data-es="✓ Mantener horarios de descanso."
+      data-en="✓ Maintain rest schedules.">
+
+      ✓ Mantener horarios de descanso.
+
+    </p>
+
+    <p
+      data-es="✓ Tener tiempo sin dispositivos."
+      data-en="✓ Have time without devices.">
+
+      ✓ Tener tiempo sin dispositivos.
+
+    </p>
+
+    <p
+      data-es="✓ Practicar respiración y relajación."
+      data-en="✓ Practice breathing and relaxation.">
+
+      ✓ Practicar respiración y relajación.
+
+    </p>
+
+    <p
+      data-es="✓ Priorizar actividades fuera de internet."
+      data-en="✓ Prioritize activities outside the internet.">
+
+      ✓ Priorizar actividades fuera de internet.
+
+    </p>
+
+    <br>
+
+    <h3
+      data-es="🌬️ Ejercicio de Respiración"
+      data-en="🌬️ Breathing Exercise">
+
+      🌬️ Ejercicio de Respiración
+
+    </h3>
+
+    <p
+      data-es="Sigue el ritmo de respiración para relajarte."
+      data-en="Follow the breathing rhythm to relax.">
+
+      Sigue el ritmo de respiración para relajarte.
+
+    </p>
+
+    <div style="
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      margin-top:30px;
+    ">
+
+      <div id="breathCircle" style="
+        width:140px;
+        height:140px;
+        border-radius:50%;
+        background:#B39DDB;
+        transition:all 4s ease-in-out;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        color:white;
+        font-weight:bold;
+        font-size:22px;
+      ">
+
+        INHALA
+
+      </div>
+
+      <button onclick="startBreathing()"
+        class="module-nav-btn"
+        style="margin-top:30px;"
+        data-es="Iniciar Ejercicio"
+        data-en="Start Exercise">
+
+        Iniciar Ejercicio
+
+      </button>
+
+    </div>
+
+    <!-- NAVEGACION -->
+    <div class="module-nav">
+
+      <button class="module-nav-btn"
+        onclick="window.location.href='modulo4.html'"
+        data-es="← Regresar"
+        data-en="← Back">
+
+        ← Regresar
+
+      </button>
+
+      <span class="module-nav-center"
+        data-es="Módulo 5 de 5"
+        data-en="Module 5 of 5">
+
+        Módulo 5 de 5
+
+      </span>
+
+      <button class="module-nav-btn"
+        onclick="window.location.href='index.html'"
+        data-es="Inicio →"
+        data-en="Home →">
+
+        Inicio →
+
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+  <a href="index.html" class="logo-zennet">
+    <img src="assets/images/logo.png"
+      alt="ZenNet Logo"
+      style="width:80px;height:80px;">
+  </a>
+
+  <p
+    data-es="Aprende a usar la tecnología de forma saludable"
+    data-en="Learn to use technology in a healthy way">
+
+    Aprende a usar la tecnología de forma saludable
+
+  </p>
+
+  <p class="footer-copy">
+    © 2026 ZENNET. Todos los derechos reservados.
+  </p>
+
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script src="assets/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</body>
+</html>
