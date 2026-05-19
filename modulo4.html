@@ -142,116 +142,82 @@
     <br>
 
     <h3
-      data-es="🪑 Juego de Ergonomía"
-      data-en="🪑 Ergonomics Game">
+  data-es="🪑 Selecciona la Postura Correcta"
+  data-en="🪑 Select the Correct Posture">
 
-      🪑 Juego de Ergonomía
+  🪑 Selecciona la Postura Correcta
 
-    </h3>
+</h3>
 
-    <p
-      data-es="Ajusta la postura correctamente para completar el módulo."
-      data-en="Adjust the posture correctly to complete the module.">
+<p
+  data-es="Selecciona la postura más saludable para usar dispositivos digitales."
+  data-en="Select the healthiest posture for using digital devices.">
 
-      Ajusta la postura correctamente para completar el módulo.
+  Selecciona la postura más saludable para usar dispositivos digitales.
 
-    </p>
+</p>
 
-    <div class="ergo-container" style="border-color: #64B5F6;">
+<div class="habit-grid">
 
-      <div class="ergo-header">
+  <!-- OPCION 1 -->
+  <div
+    class="habit-option"
+    onclick="showToast('❌ Incorrecto')"
+    data-es="❌ Usar laptop acostado en la cama"
+    data-en="❌ Using a laptop while lying in bed">
 
-        <div class="ergo-score" id="ergoScore">18%</div>
+    ❌ Usar laptop acostado en la cama
 
-        <div class="ergo-status"
-          id="ergoStatus"
-          style="background: rgba(239,68,68,0.1);
-          color: #ef4444;">
+  </div>
 
-          CAOS TOTAL
+  <!-- OPCION 2 -->
+  <div
+    class="habit-option"
+    onclick="showToast('❌ Incorrecto')"
+    data-es="❌ Espalda completamente encorvada"
+    data-en="❌ Completely hunched back">
 
-        </div>
+    ❌ Espalda completamente encorvada
 
-      </div>
+  </div>
 
-      <div class="ergo-svg-wrap">
+  <!-- OPCION 3 -->
+  <div
+    class="habit-option"
+    onclick="showToast('✅ ¡Correcto! Buena ergonomía')"
+    data-es="✅ Espalda recta y pantalla a la altura de los ojos"
+    data-en="✅ Straight back and screen at eye level">
 
-        <svg id="ergoSVG"
-          width="100%"
-          height="420"
-          viewBox="0 0 900 420"
-          style="display:block;">
-        </svg>
+    ✅ Espalda recta y pantalla a la altura de los ojos
 
-      </div>
+  </div>
 
-      <div class="ergo-tips" id="ergoTips">
+  <!-- OPCION 4 -->
+  <div
+    class="habit-option"
+    onclick="showToast('❌ Incorrecto')"
+    data-es="❌ Mirar el celular por horas sin descanso"
+    data-en="❌ Looking at the phone for hours without breaks">
 
-        💡 Ajusta la postura para mejorar el puntaje.
+    ❌ Mirar el celular por horas sin descanso
 
-      </div>
-<div class="ergo-info-box">
+  </div>
 
-  <h4
-    data-es="📋 Consejos Ergonómicos:"
-    data-en="📋 Ergonomic Tips:">
+</div>
 
-    📋 Consejos Ergonómicos:
+<br>
 
-  </h4>
-
-  <p
-    data-es="✅ Espalda recta contra el respaldo"
-    data-en="✅ Straight back against the chair">
-
-    ✅ Espalda recta contra el respaldo
-
-  </p>
-
-  <p
-    data-es="✅ Ángulos de 90° en codos y rodillas"
-    data-en="✅ 90° angles in elbows and knees">
-
-    ✅ Ángulos de 90° en codos y rodillas
-
-  </p>
+<div class="ergo-tips">
 
   <p
-    data-es="✅ Pantalla al nivel de los ojos"
-    data-en="✅ Screen at eye level">
+    data-es="💡 Consejo: Mantén la espalda recta, los pies apoyados y realiza pausas activas."
+    data-en="💡 Tip: Keep your back straight, feet supported, and take active breaks.">
 
-    ✅ Pantalla al nivel de los ojos
-
-  </p>
-
-  <p
-    data-es="✅ Muñecas rectas al escribir"
-    data-en="✅ Straight wrists while typing">
-
-    ✅ Muñecas rectas al escribir
-
-  </p>
-
-  <p
-    data-es="¡Mantén esta postura durante tu jornada!"
-    data-en="Maintain this posture during your day!">
-
-    ¡Mantén esta postura durante tu jornada!
+    💡 Consejo: Mantén la espalda recta, los pies apoyados y realiza pausas activas.
 
   </p>
 
 </div>
-      <button onclick="resetErgoDisaster()"
-        class="module-nav-btn"
-        style="margin-top:12px;"
-        data-es="Reiniciar"
-        data-en="Restart">
-
-        Reiniciar
-
-      </button>
-
-    </div>
 
     <!-- NAVEGACION -->
     <div class="module-nav">
